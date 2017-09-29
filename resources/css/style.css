@@ -1,1 +1,36 @@
 /*CSS for MyTimes website*/
+/* {
+  border: 1px solid black;
+
+}*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: MediumAquamarine;
+}
+
+.logo p {
+  padding: 10px;
+}
+
+nav {
+  display: inline-flex;
+  align-items: center;
+  padding: 25px;
+}
+
+a {
+  padding: 10px;
+}
