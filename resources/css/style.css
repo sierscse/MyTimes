@@ -1,7 +1,9 @@
 /*CSS for MyTimes website*/
 /* {
   border: 1px solid black;
-
+  div {
+    border: 1px solid black;
+  }
 }*/
 
 .header {
@@ -36,10 +38,6 @@ a {
 
 }
 
-div {
-  border: 1px solid black;
-}
-
 .main-content {
   display: flex;
   justify-content: space-between;
@@ -59,6 +57,7 @@ div {
 
 .column.small {
   width: 240px;
+
 }
 
 .caption {
@@ -98,4 +97,22 @@ div {
 
 .section-1, .section-2 {
   margin: 10px;
+  min-width: 60px;
+}
+
+.small span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  display: block;
+  padding: 10px;
+}
+
+.small h1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
