@@ -16,7 +16,6 @@
 
 .logo {
   display: flex;
-  justify-content: center;
   padding: 10px;
   color: MediumAquamarine;
 }
@@ -29,8 +28,74 @@ nav {
   display: inline-flex;
   align-items: center;
   padding: 25px;
+  flex-wrap: wrap;
 }
 
 a {
   padding: 10px;
+
+}
+
+div {
+  border: 1px solid black;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  margin: 10px;
+}
+.column.large {
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.caption {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 300px;
+}
+
+.article p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+#main {
+  background-image: url('../images/main-story.png');
+  text-align: left;
+}
+
+#fall {
+  background-image: url('../images/fall-season.png');
+}
+
+#camera {
+  background-image: url('../images/hipster.png');
+}
+
+#cat {
+  background-image: url('../images/cat-ceo.png');
+}
+
+.second-content {
+  display: inline-flex;
+}
+
+.section-1, .section-2 {
+  margin: 10px;
 }
