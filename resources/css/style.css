@@ -17,33 +17,6 @@
   top: 0;
 }
 
-footer {
-  background-color: MediumAquamarine;
-  margin: auto;
-  font-family: Verdana;
-  font-size: 12px;
-  padding: 100px;
-
-}
-
-footer p {
-  font-family: Georgia;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-}
-
-#footer-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-}
-
 .logo {
   display: flex;
   padding: 10px;
@@ -80,13 +53,21 @@ a {
   flex-wrap: wrap;
 }
 
+#main {
+  background-image: url('../images/main-story.png');
+  text-align: left;
+}
+
 .column.medium {
   width: 300px;
 }
 
+#cat {
+  background-image: url('../images/cat-ceo.png');
+}
+
 .column.small {
   width: 240px;
-
 }
 
 .caption {
@@ -103,22 +84,6 @@ a {
   font-size: 17px;
   color: black;
 }
-#main {
-  background-image: url('../images/main-story.png');
-  text-align: left;
-}
-
-#fall {
-  background-image: url('../images/fall-season.png');
-}
-
-#camera {
-  background-image: url('../images/hipster.png');
-}
-
-#cat {
-  background-image: url('../images/cat-ceo.png');
-}
 
 .second-content {
   display: inline-flex;
@@ -127,6 +92,14 @@ a {
 .section-1, .section-2 {
   margin: 10px;
   min-width: 60px;
+}
+
+#fall {
+  background-image: url('../images/fall-season.png');
+}
+
+#camera {
+  background-image: url('../images/hipster.png');
 }
 
 .small span {
@@ -144,4 +117,31 @@ a {
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 100px;
+
+}
+
+footer p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
 }
